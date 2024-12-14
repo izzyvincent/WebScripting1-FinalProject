@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project - Isabel Vincent</title>
+    <!-- stylsheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- icons -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <!-- font 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <!-- font 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- plug ins -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.5/jquery.validate.min.js"></script>
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+    <header class="bannercontainer">
+        <img src="img/birdsAndbeets-logo.svg" alt="Logo" class="logo">
+        <div class="header-banner">
+            <div class="header-text-wrapper">
+                <p><span id="typed-text"></span><p>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="navcontainer">
+
+            <!-- got this template from https://codepen.io/0guzhan/pen/YvNmwJ -->
+            <ul id="nav">
+                <a class="nav-button icon-plus" id="open-nav" href="#nav" title="Show navigation">
+                    <i class="fi fi-br-menu-burger"></i>
+                </a>
+                <a class="nav-button icon-minus" id="close-nav" href="#0" title="Hide navigation">
+                    <i class="fi fi-rr-cross-small"></i>
+                </a>
+                <li class="nav-item">
+                   <a href="./contact.html">
+                        <i class="fi fi-rr-marker"></i>
+                   </a>
+                </li>
+                <li class="nav-item">
+                   <a href="./menu.html">
+                        <i class="fi fi-rr-restaurant"></i>
+                   </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html">
+                         <i class="fi fi-rr-home"></i>
+                    </a>
+                 </li>
+             </ul>
+            </ul>
+        </section>
+
+        <section id="contactcontainer">
+
+            <div class="h1banner">
+                <div class="text-wrapper">
+                    <h1>Contact Us</h1>
+                </div>
+            </div> <br>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10410.525285219632!2d-123.1028503!3d49.2833828!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671773332ef77%3A0x3c9f68e8da5fc106!2sBirds%20%26%20The%20Beets!5e0!3m2!1sen!2sca!4v1733466771602!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="contact-card">
+                <p>55 Powell St //  54 Alexander St, Vancouver</p> <br> <br>
+                <p><strong>Email: hey@birdsandbeets.ca</strong></p>
+            </div> <br>
+
+        </section>
+
+        <section class="form">
+            <form id="contact-form" class="form-container">
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footercontainer">
+                <img src="img/birdsAndbeets-logo.svg" alt="Logo" class="logo">
+            </div>
+        </footer>
+
+    </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

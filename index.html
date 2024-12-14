@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project - Isabel Vincent</title>
+    <!-- stylsheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- icons -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <!-- font 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <!-- font 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- plug-ins -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.min.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+    <header class="bannercontainer">
+        <img src="img/birdsAndbeets-logo.svg" alt="Logo" class="logo">
+        <div class="header-banner">
+            <div class="header-text-wrapper">
+                <p><span id="typed-text"></span></p>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="navcontainer">
+
+            <!-- got this template from https://codepen.io/0guzhan/pen/YvNmwJ -->
+            <ul id="nav">
+                <a class="nav-button icon-plus" id="open-nav" href="#nav" title="Show navigation">
+                    <i class="fi fi-br-menu-burger"></i>
+                </a>
+                <a class="nav-button icon-minus" id="close-nav" href="#0" title="Hide navigation">
+                    <i class="fi fi-rr-cross-small"></i>
+                </a>
+                </li>
+                <li class="nav-item">
+                   <a href="./contact.html">
+                        <i class="fi fi-rr-marker"></i>
+                   </a>
+                </li>
+                <li class="nav-item">
+                   <a href="./menu.html">
+                        <i class="fi fi-rr-restaurant"></i>
+                   </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./index.html">
+                         <i class="fi fi-rr-home"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <div class="pagebreak"></div>
+
+        <section id="gallerycontainer">
+        <div class="photo-gallery">
+
+            <div class="h1banner">
+                <div class="text-wrapper">
+                    <h1>Photo Gallery</h1>
+                </div>
+            </div> <br>
+
+            <div class="carousel">
+                <div class="carousel-cell">
+                    <img src="./img/coffee1.jpeg" alt="Barista presenting a coffee">
+                </div>
+                <div class="carousel-cell">
+                    <img src="./img/vancouver1.jpeg" alt="Gastown Alexander St building">
+                </div>
+                <div class="carousel-cell">
+                    <img src="./img/coffee2.jpeg" alt="Barista making a coffee">
+                </div>
+                <div class="carousel-cell">
+                    <img src="./img/vancouver2.jpeg" alt="Gastown clock" class="gastownimg">
+                </div>
+            </div>
+
+        </section> <br>
+
+        <footer>
+            <div class="footercontainer">
+                <img src="img/birdsAndbeets-logo.svg" alt="Logo" class="logo">
+            </div>
+        </footer>
+
+    </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
